@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Youtube Downloader</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+			integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<nav class="navbar navbar-dark bg-primary ">
+			<div class="container">
+				<a href="/">
+					<h2 style="color:#fff"><strong>Youtube Downloader</strong></h2>
+				</a>
+			</div>
+		</nav>
+		<div class="container my-5">
+			<h1><strong>Youtube Downloader</strong></h1>
+			<form method="GET" action='/download' class="my-5">
+				<div class="form-group">
+					<label for="exampleInputEmail1"
+						>Video Link from Youtube</label
+					>
+					<input
+						type="text"
+						class="form-control"
+						placeholder="Enter Video URL"
+                        name="url"
+					/>
+				</div>
+		
+					<button type="submit" class="btn btn-primary">Download</button>
+		
+			</form>
+		</div>
+	</body>
+	<footer style="margin-top: 50px;">
+		<div class="container py-3 my-4 border-top">
+			<p>Developed by <a href="https://www.facebook.com/profile.php?id=100007977125910" target="_blank"
+					class="text-primary">Akash Shil</a></p>
+	
+		</div>
+	
+	</footer>
+</html>
